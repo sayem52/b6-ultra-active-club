@@ -5,7 +5,7 @@ import './List.css';
 const List = (props) => {
     const {list} = props;
 
-    let time=0;
+    let timeCount=0;
     let quantity=0;
     
     for(const zym of list){
@@ -14,7 +14,7 @@ const List = (props) => {
 
         quantity=quantity+zym.quantity;
 
-        time = time + change * zym.quantity ;
+        timeCount = timeCount + change * zym.quantity ;
     }
     const handleBreak = (id) =>{
         const lShow=document.getElementById("s1");
@@ -56,7 +56,7 @@ const List = (props) => {
             </div>
             <div>
                <h2>Exercise Details</h2>
-               <p>Exercise time : {time}s</p>
+               <p>Exercise time : {timeCount}s</p>
                <p>Break time : <small id='s1'> </small></p>
                <button className='btn-break'>
                   <p>Activity Completed</p>
