@@ -40,9 +40,9 @@ const Item = () => {
             newActivity=[...list,selectItem];
         }
         else{
-            const rest=list.filter(zym=>zym.id !== selectItem.id);
+            const otherItem=list.filter(zym=>zym.id !== selectItem.id);
             exits.quantity = exits.quantity +1;
-            newActivity=[...rest,exits]
+            newActivity=[...otherItem,exits]
 
         }
         setList(newActivity);
