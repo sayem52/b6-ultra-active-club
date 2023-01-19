@@ -1,0 +1,45 @@
+.things{
+    width: 300px;
+    height: 600px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+}
+.things-info{
+    margin: 0 14px;
+}
+.things-info p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.things-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+
+
+.things img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.btn-list{
+    width: 100%;
+    background: #386bf8;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-list:hover{
+    background-color: orange;
+}

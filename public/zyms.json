@@ -1,0 +1,84 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "CHEST PRESS MACHINE",
+    "description": "If you’re looking for easy to use exercise equipment that targets your upper body, then you should try out the chest press machine.",
+    "age": "20-25",
+    "time_required":"30s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2021/06/tricep-press-machine-283x300.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "name": "SEATED DIP MACHINE",
+    "description": "A machine that will prevent you from losing your form and balance. You get to sit upright and use your triceps to push the weights down and back up again. It’s a great dip station.",
+    "age": "25-30",
+    "time_required":"35s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/03/hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "name": "CHEST FLY MACHINE",
+    "description": "The chest fly strengthens your chest and torso to allow you to increase muscle mass. It’s a great alternative to work your chest without having to load heavy weights onto a barbell.",
+    "age": "30-35",
+    "time_required":"40s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/life-fitness-signature-pecfly-2-e1559941242112.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "name": "BENCH PRESS",
+    "description": "Basically, you lay flat on a padded bench, use a barbell and do push ups. Above the bench is a barbell stand where the barbell will go. The bench press supports you and allows you to use dumbbells also.",
+    "age": "35-40",
+    "time_required":"50s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/04/olympic-flat-bench-600x600.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "name": "INCLINE BENCH PRESS",
+    "description": "The incline bench is exactly the same as the bench press; the only difference is it allows you to press at an incline.",
+    "age": "40-45",
+    "time_required":"60s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/olympic-incline-bench-600x600.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "name": "DECLINE BENCH PRESS",
+    "description": "This piece of gym equipment allows you to work out while lying down on a decline.",
+    "age": "45-50",
+    "time_required":"70s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/04/hammer-strength-olympic-decline-bench-600x600.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "name": "ADJUSTABLE BENCH",
+    "description": "An adjustable bench allows you to incorporate all the benefits of a flat bench. incline, and decline bench press. You get to move the bench to work at whatever angle you like!",
+    "age": "50-55",
+    "time_required":"80s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2021/01/buge-adjustable-bench-m037.jpg",
+    "quantity": 0
+  },
+
+  {
+    "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+    "name": "ARM CURL MACHINE",
+    "description": "The arm curl machine is slightly similar to a preacher curl machine;This machine provides consistent resistance to your forearms.",
+    "age": "55-60",
+    "time_required":"90s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/technogym-selection-armcurl-2.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "sp9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "name": "ADJUSTABLE BENCH2",
+    "description": "An adjustable bench allows you to incorporate all the benefits of a flat bench. incline, and decline bench press. You get to move the bench to work at whatever angle you like!",
+    "age": "50-60",
+    "time_required":"70s",
+    "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/03/hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+    "quantity": 0
+  }
+]
