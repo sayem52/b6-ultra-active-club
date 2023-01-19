@@ -32,21 +32,21 @@ const Item = () => {
 
 
       },[zyms])
-    const handleList = (selectZym) =>{
+    const handleList = (selectItem) =>{
         let newList=[];
-        const exits=list.find(zym=>zym.id === selectZym.id);
+        const exits=list.find(zym=>zym.id === selectItem.id);
         if(!exits){
-            selectZym.quantity=1;
-            newList=[...list,selectZym];
+            selectItem.quantity=1;
+            newList=[...list,selectItem];
         }
         else{
-            const rest=list.filter(zym=>zym.id !== selectZym.id);
+            const rest=list.filter(zym=>zym.id !== selectItem.id);
             exits.quantity = exits.quantity +1;
             newList=[...rest,exits]
 
         }
         setList(newList);
-        addToDb(selectZym.id);
+        addToDb(selectItem.id);
         
     }
     
