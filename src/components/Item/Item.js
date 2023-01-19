@@ -33,19 +33,19 @@ const Item = () => {
 
       },[zyms])
     const handleList = (selectItem) =>{
-        let newList=[];
+        let newActivity=[];
         const exits=list.find(zym=>zym.id === selectItem.id);
         if(!exits){
             selectItem.quantity=1;
-            newList=[...list,selectItem];
+            newActivity=[...list,selectItem];
         }
         else{
             const rest=list.filter(zym=>zym.id !== selectItem.id);
             exits.quantity = exits.quantity +1;
-            newList=[...rest,exits]
+            newActivity=[...rest,exits]
 
         }
-        setList(newList);
+        setList(newActivity);
         addToDb(selectItem.id);
         
     }
