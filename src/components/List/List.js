@@ -10,11 +10,11 @@ const List = (props) => {
     
     for(const zym of list){
 
-        let rr=parseInt(zym.time_required);
+        let change=parseInt(zym.time_required);
 
         quantity=quantity+zym.quantity;
 
-        time = time + rr * zym.quantity ;
+        time = time + change * zym.quantity ;
     }
     const handleBreak = (id) =>{
         const lShow=document.getElementById("s1");
